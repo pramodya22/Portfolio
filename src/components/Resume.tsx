@@ -70,7 +70,7 @@ const Resume = () => {
         </h2>
 
         <div className="text-center mb-12">
-          <a href="/cv/Pramodya_Kithmini_CV_InternQA.pdf"
+          <a href="/cv/Pramodya_Kithmini_InternQA_CV.pdf"
     download className="group relative inline-flex items-center space-x-3 px-8 py-4 
                bg-gradient-to-r from-blue-500 to-pink-500 rounded-lg 
                font-semibold text-white transition-all duration-300 
