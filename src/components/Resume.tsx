@@ -70,14 +70,11 @@ const Resume = () => {
         </h2>
 
         <div className="text-center mb-12">
-          <a
-    href="/cv/Pramodya_Kithmini_CV_InternQA.pdf"
-    download
-    className="group relative inline-flex items-center space-x-3 px-8 py-4 
+          <a href="/cv/Pramodya_Kithmini_CV_InternQA.pdf"
+    download className="group relative inline-flex items-center space-x-3 px-8 py-4 
                bg-gradient-to-r from-blue-500 to-pink-500 rounded-lg 
                font-semibold text-white transition-all duration-300 
-               hover:shadow-xl hover:shadow-blue-500/50 hover:scale-105"
-  >
+               hover:shadow-xl hover:shadow-blue-500/50 hover:scale-105">
             <Download size={20} className="transition-transform duration-300 group-hover:-translate-y-1" />
             <span>Download Resume</span>
       </a>
