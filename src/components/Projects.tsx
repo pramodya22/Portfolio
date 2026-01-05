@@ -1,5 +1,10 @@
 import { useEffect, useState } from 'react'
 import { Github, ExternalLink } from 'lucide-react'
+import projectImage1 from '../assets/weatherapp.png'
+import projectImage2 from '../assets/opencart.png'
+import projectImage3 from '../assets/aloe.png'
+import projectImage4 from '../assets/restaurant.png'
+import projectImage5 from '../assets/figma.png'
 
 
 const Projects = () => {
@@ -30,7 +35,7 @@ const Projects = () => {
       title: 'OpenCart E-commerce Application – QA Testing Project',
       description:
         'This project demonstrates end-to-end Quality Assurance testing performed on the OpenCart e-commerce application, focusing on the User Registration and Login modules. The project covers the complete QA lifecycle including test planning, manual testing, defect management, and automation testing using industry-standard tools and methodologies.',
-      image: 'assets/opencart.png',
+      image: projectImage2,
       tags: ['java', 'Selenium', 'Jira', 'TestNG', 'Zephyr'],
       github: 'https://github.com/pramodya22/OpenCart_Testing_Project.git',
       //demo: 'https://demo.com',
@@ -48,7 +53,7 @@ const Projects = () => {
       title: 'Weather Application',
       description:
         'A simple weather application that displays current weather conditions, hourly forecasts, and a 5-day forecast for any city using the OpenWeatherMap API. The app features a dynamic interface with a video background and a responsive design.',
-      image: 'assets/weatherapp.png',
+      image: projectImage1,
       tags: ['HTML 5', 'CSS 3', 'JavaScript', 'OpenWeatherMap API'],
       github: 'https://github.com/pramodya22/weather-application.git',
       //demo: 'https://demo.com',
@@ -57,7 +62,7 @@ const Projects = () => {
       title: 'A Smart App for Aloe Vera Disease Detection',
       description:
         'AloeGuard is an offline Android app that helps farmers detect Aloe Vera leaf diseases in real-time using AI. It identifies conditions like Leaf Spot, Aloe Rust, Anthracnose, and Sunburn with a TensorFlow Lite model, providing instant diagnoses and treatment advice. Designed for rural farmers, it’s lightweight and works on low-end smartphones without internet.',
-      image: 'assets/aloe.png',
+      image:projectImage3,
       tags: ['TypeScript','PostgreSQL','TensorFlow','Python','Tailwind CSS','Express.js'],
       github: 'https://github.com/pramodya22/ALO_PK-123-.git',
       //demo: 'https://demo.com',
@@ -66,7 +71,7 @@ const Projects = () => {
       title: 'Restaurant App',
       description:
         'A simple and responsive restaurant website created using HTML, CSS, and Bootstrap .Features Home, About, Menu, and Contact sections ,Interactive navigation bar.Stylish layout with Bootstrap. Menu categories',
-      image: 'assets/restaurant.png',
+      image: projectImage4,
       tags: ['HTML5', 'CSS3', 'Bootstrap 5'],
       github: 'https://github.com/pramodya22/Restaurant-website.git',
       //demo: 'https://demo.com',
@@ -77,7 +82,7 @@ const Projects = () => {
       title: 'Study Buddy – AI-Powered Study Assistant (Figma UI/UX Design)',
       description:
         'Study Buddy is a Figma-based UI/UX design for an intelligent, web-based study assistant. It’s crafted to help students plan, focus, and learn effectively by combining smart AI tools, productivity systems, and motivational design elements in a single digital workspace.The goal of Study Buddy is to make studying more structured, enjoyable, and personalized. The design encourages productivity through simplicity — blending AI-driven assistance, calendar-based organization, and focus tools to help students achieve consistency in learning.',
-      image: 'assets/figma.png',
+      image: projectImage5,
       tags: ['Figma', 'UI/UX Design', 'Prototyping'],
       github: 'https://github.com/pramodya22/Study-Buddy.git',
       //demo: 'https://demo.com',

@@ -1,4 +1,6 @@
 import { useEffect, useState } from 'react'
+import profile from '../assets/p1.png'
+
 
 const About = () => {
   const [isVisible, setIsVisible] = useState(false)
@@ -45,7 +47,7 @@ const About = () => {
                     <div className="relative w-64 h-64 rounded-full bg-gradient-to-br from-blue-500 to-pink-500 flex items-center justify-center transform transition-all duration-500 hover:scale-110 hover:rotate-3 shadow-2xl">
                       <div className="w-60 h-60 rounded-full overflow-hidden bg-grey-900 ring-2 ring-blue-400/40">
   <img
-    src="assets/p1.png"
+    src={profile}
     alt="Profile"
     className="w-full h-full object-cover scale-110 transition-transform duration-500 hover:scale-115"
   />
