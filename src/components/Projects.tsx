@@ -1,5 +1,7 @@
 import { useEffect, useState } from 'react'
 import { Github, ExternalLink } from 'lucide-react'
+import testProject from '../assets/testProject.png';
+import weather from '../assets/weather.png';
 
 const Projects = () => {
   const [isVisible, setIsVisible] = useState(false)
@@ -29,7 +31,7 @@ const Projects = () => {
       title: 'OpenCart E-commerce Application – QA Testing Project',
       description:
         'This project demonstrates end-to-end Quality Assurance testing performed on the OpenCart e-commerce application, focusing on the User Registration and Login modules. The project covers the complete QA lifecycle including test planning, manual testing, defect management, and automation testing using industry-standard tools and methodologies.',
-      image: 'assets/testProject.jpg',
+      image: testProject,
       tags: ['java', 'Selenium', 'Jira', 'TestNG', 'Zephyr'],
       github: 'https://github.com/pramodya22/OpenCart_Testing_Project.git',
       //demo: 'https://demo.com',
@@ -47,7 +49,7 @@ const Projects = () => {
       title: 'Weather Application',
       description:
         'A simple weather application that displays current weather conditions, hourly forecasts, and a 5-day forecast for any city using the OpenWeatherMap API. The app features a dynamic interface with a video background and a responsive design.',
-      image: 'assets/weather.png',
+      image: weather,
       tags: ['HTML 5', 'CSS 3', 'JavaScript', 'OpenWeatherMap API'],
       github: 'https://github.com/pramodya22/weather-application.git',
       //demo: 'https://demo.com',
